@@ -27,11 +27,20 @@ match inp:
         print("It is not Vowel")
 """
 # 3)	Display numbers  1 to 10 using  While loop
+'''
 i = 1
 while(i <= 10):
     print(i)
     i = i+1
+'''
 # 4)	Display numbers from 3 to 30 except number 24  using while loop.
+i = 3
+while i <= 30:
+    if i==24:
+        i = i+1
+        continue
+    print(i)
+    i = i+1
 # 5)	accept marks from the user. Using if…….elif….  Else,  display whether result is  fail, pass, second class , first class, Distinction etc.
 # 6) print the total of first 10 numbers.
 # 7) accept numbers till user enters 0 and display the total of all the numbers entered.

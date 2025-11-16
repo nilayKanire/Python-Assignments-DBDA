@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b904bc4c-d122-4761-8bb6-6a349465bd97" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Python Assignment 2/1-List-Assignment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python Assignment 1 [ Logic Building ]/1st_Assignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Assignment 1 [ Logic Building ]/1st_Assignment.py" afterDir="false" />
     </list>
@@ -36,7 +37,7 @@
   "keyToString": {
     "Python.1st_Assignment.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "assignment1"
   }
 }]]></component>
   <component name="SharedIndexes">
