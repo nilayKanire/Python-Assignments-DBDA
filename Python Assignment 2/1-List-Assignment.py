@@ -12,7 +12,7 @@ inp2 = input("Enter the Name: ")
 inp3 = float(input("Enter the decimal number: "))
 
 mylist = [inp1, inp2, inp3]
-
+print(mylist)
 inp4 = input("Enter the name to insert at 2nd position: ")
 inp5 = int(input("Enter the number to append it at the end: "))
 mylist.insert(1,inp4)
@@ -72,10 +72,37 @@ print(mylist[::-1])
 # 5) accept 5 numbers, store them inside the list. now accept a number from user which he would like to remove from the list and  after removing it, display the list.
 #
 # Solution ->
+'''
+print("Enter total 5 numbers")
+mylist = []
+for i in range(1,6):
+    inp = int(input("Enter the number: "))
+    mylist.append(inp)
 
+print(mylist)
+
+rem = int(input("Enter the number, which you want to remove from the list: "))
+mylist.remove(rem)
+
+print(mylist)
+'''
 # 6) accept 5 numbers, store them inside the list. now accept a position from user ,remove the element from that position and  after removing it, display the list.
 #
 # Solution ->
+'''
+print("Enter total 5 numbers")
+mylist = []
+for i in range(1,6):
+    inp = int(input("Enter the number: "))
+    mylist.append(inp)
+
+print(mylist)
+
+rem = int(input("Enter the position to remove to element at that position in the list : "))
+mylist.pop(rem)
+
+print(mylist)
+'''
 
 # 7) create a list and store string,number,character,boolean,decimal values respectively inside it.
 # Now slice it in following ways:
@@ -86,18 +113,29 @@ print(mylist[::-1])
 #
 # Solution ->
 #
+
+mylist1 = ["Nilay", 7, 'n', True, False, 9.9]
+# a)
+print(mylist1[::-1])
+# b)
+print(mylist1[1:])
+# c)
+print(mylist1[0:4])
+# d)
+print(mylist1[-1:-4:-1])
+
 # 8) Note: use List comprehension
 #  create a list with the numbers from 1 to 20
 #  create one more list which should contain only odd numbers from the first list.
 #
 # Solution ->
-#
+'''
 # mylist1 = [i for i in range(1, 21)]
 # mylist_odd = [i for i in mylist1 if i%2 != 0]
 #
 # print(mylist1)
 # print(mylist_odd)
-#
+'''
 # --------------------------------------------------------------------------
 # 9) accept 5 names and store them in list. Now sort the list in ascending order display and then in descending order.
 #
