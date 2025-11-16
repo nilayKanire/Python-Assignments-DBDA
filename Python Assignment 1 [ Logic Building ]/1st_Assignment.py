@@ -10,7 +10,7 @@ for i in range(1,11):
 '''Python, unlike many other programming languages, did not traditionally have a built-in switch-case statement. 
 However, with the introduction of structural pattern matching in Python 3.10, a match-case statement was added, 
 providing similar functionality.'''
-
+"""
 inp = input("Enter the character : ")
 match inp:
     case "a":
@@ -25,7 +25,12 @@ match inp:
         print("It is Vowel")
     case _:
         print("It is not Vowel")
+"""
 # 3)	Display numbers  1 to 10 using  While loop
+i = 1
+while(i <= 10):
+    print(i)
+    i = i+1
 # 4)	Display numbers from 3 to 30 except number 24  using while loop.
 # 5)	accept marks from the user. Using if…….elif….  Else,  display whether result is  fail, pass, second class , first class, Distinction etc.
 # 6) print the total of first 10 numbers.
