@@ -124,7 +124,7 @@ print(mylist)
 #
 # now create one more list and in that list store all the objects from first list where "isautomatic" is True.
 # Print both the lists.
-#
+
 # Solution ->
 '''
 class Car:
