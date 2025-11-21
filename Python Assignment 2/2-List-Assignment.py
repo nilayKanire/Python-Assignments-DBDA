@@ -1,7 +1,14 @@
 # 1)Write a Python program to find all the values in a list are greater than a specified number.
-#
-# 2) Write a Python program to find the list of words that are longer than n from a given list of words.
-#
+
+mylist = [ 1, 23, 34, 53, 122, 3, 9, 1002]
+mylist.sort()
+inp = int(input("Enter the number to find the value which is greater than it : "))
+for i in mylist:
+    if(i > inp):
+        print(i)
+# # 2) Write a Python program to find the list of words that are longer than n from a given list of words.
+
+
 # 3) Write a Python program to get the largest number from a list.
 #
 # 4) Write a Python program to count the number of strings where the string length is 2 or more and the first and last character are same from a given list of strings.

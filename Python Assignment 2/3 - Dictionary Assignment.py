@@ -4,5 +4,12 @@
 # Sample output = 3
 #
 # 2) create a tuple to store 5 numbers and then sort it in ascending and descending order.
-#
+
+
+
 # 3) Write a Python program to find the repeated items of a tuple.
+
+tup = ( 1, 2, 3, 4, 5, 5, 3, 1)
+
+
+
