@@ -34,6 +34,7 @@ while(i <= 10):
     i = i+1
 '''
 # 4)	Display numbers from 3 to 30 except number 24  using while loop.
+'''
 i = 3
 while i <= 30:
     if i==24:
@@ -41,7 +42,22 @@ while i <= 30:
         continue
     print(i)
     i = i+1
+'''
 # 5)	accept marks from the user. Using if…….elif….  Else,  display whether result is  fail, pass, second class , first class, Distinction etc.
+marks = int(input("Enter the Marks, to see your Remark: "))
+if marks >= 75 and marks <= 100:
+    print("Distinction")
+elif marks >= 60 and marks < 75:
+    print("Firs Class")
+elif marks >= 40 and marks < 60:
+    print("Second Class")
+elif marks >34 and marks <40:
+    print("Barely Pass")
+elif marks > 100:
+    print("Invalid Marks")
+else:
+    print("Fail")
+
 # 6) print the total of first 10 numbers.
 # 7) accept numbers till user enters 0 and display the total of all the numbers entered.
 # 8) accept a character and display whether it is upper case or lower case or not an alphabet.
