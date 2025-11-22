@@ -2,7 +2,20 @@
 #
 # Sample input : list = [10, 20, 30, (40,50), 60]
 # Sample output = 3
-#
+
+mylist = [10,20, 30, (40,50), 60]
+print(type(mylist[3]))
+count = 0
+for i in mylist:
+    if type(i) is tuple:
+        break
+    else:
+        count = count + 1
+print(count)
+
+# for i in mylist:
+#     if(type(i) )
+
 # 2) create a tuple to store 5 numbers and then sort it in ascending and descending order.
 
 
